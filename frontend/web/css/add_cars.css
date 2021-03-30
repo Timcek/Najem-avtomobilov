@@ -1,0 +1,46 @@
+body{
+    background-color: #EEEFF2;
+}
+.sceleton{
+    width: 80%;
+    max-width: 1000px;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 3px 3px 5px 6px #ccc;  
+}
+.names{
+    width: 30%;
+    float: left;
+    height: 100px;
+}
+
+.all_forms{
+    width: 70%;
+    display: inline-block;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+}
+h4{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
+    color: #747478;
+}
+
+input, select{
+    border-radius: 0 !important;
+}
+
+.small-sceleton{
+    width: 100%;
+    min-height: 130px;
+}
+
+#id-pjax{
+    width: 400px;
+    margin: 0 auto;
+}

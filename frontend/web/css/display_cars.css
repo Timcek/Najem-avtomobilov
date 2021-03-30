@@ -1,0 +1,126 @@
+body{
+    background-color: #E0E0E0;
+}
+.site-display_cars{
+    width: 70%;
+    margin: 0 auto;
+    min-width: 1030px;
+    height: 100%;
+    max-width: 1800px;
+}
+
+.filtering{
+    position: sticky;
+    top: 60px;
+    width: 24%;
+    max-width: 400px;
+    background-color: white;
+    float: left;
+    margin-top: 100px;
+    box-shadow: 3px 3px 5px 6px #ccc!important;
+}
+
+.p-filter{
+    margin-left: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-group{
+    width: 90%;
+    margin: 0 auto;
+}
+
+select{
+    border-radius: 0!important;
+    border-top: 0!important;
+    border-left: 0!important;
+    border-right: 0!important; 
+    box-shadow: 0 4px 2px -2px #ccc!important;  
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+input{
+    border-radius: 0!important;
+}
+
+.cars{
+    width: 73.56631%;
+    max-width:1300px;
+    height: 80vh;
+    margin: 100px 0 0 2%;
+    display: inline-block;
+}
+
+.car{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    margin-bottom: 15px;
+    position: relative;
+    box-shadow:3px 2px 8px 3px #918e8e!important;
+}
+
+.picture{
+    width: 180px;
+    height: 180px;
+    background-color: #c2c9ce;
+    margin-left: 5%;
+    margin-top: 25px;
+    position: absolute;
+}
+
+.cars_content{
+    width: 65%;
+    height: 180px;
+    margin-left: 30%;
+    margin-top: 25px;
+    position: absolute;
+}
+
+.row{
+    margin:5px 0 0 0;
+}
+
+h2{
+    margin-top: 0;
+    margin-block-start: 0!important;
+    color: #212121;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.col-sm-4{
+    width: 32%;
+    padding: 0;
+
+}
+
+a{
+    text-decoration: none!important ;
+}
+
+span{
+    color: #0C090A;
+    font-weight: 1000;
+}
+
+.user_span{
+    font-family: 'Montserrat', sans-serif;
+    color: #616161;
+    font-weight: 100;
+}
+
+.booking_message{
+    margin-top: 10px;
+    height: 40px;
+    background-color: #E0E0E0;
+}
+
+h4{
+    color: #636564;
+}
+
+p{
+    color: #616161;
+    font-family: 'Montserrat', sans-serif;
+}
