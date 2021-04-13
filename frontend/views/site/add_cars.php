@@ -95,7 +95,7 @@ use yii\widgets\Pjax;
                                         if(isset($_SESSION["temp_photo_loc"])){
                                             /*echo $_SESSION["temp_photo_loc"];
                                             echo '<div id="uploaded-image" style="width: 300px; height:300px;background:url(C:/Apache24/htdocs/sola-avto-stran/yii-appli/frontend/web/assets//temp/'.$_SESSION["temp_photo_loc"].'.png)"></div>';*/
-                                            echo '<img id="uploaded-image" src="C:/Apache24/htdocs/sola-avto-stran/yii-appli/frontend/web/assets/temp/'?><?=$_SESSION["temp_photo_loc"]?><?='.png" height="400px" width="400px" style="box-shadow: 3px 3px 5px 6px #ccc; margin: 0 auto 0 auto;">';
+                                            echo '<img id="uploaded-image" src="/assets/temp/'?><?=$_SESSION["temp_photo_loc"]?><?='.png" height="400px" width="400px" style="box-shadow: 3px 3px 5px 6px #ccc; margin: 0 auto 0 auto;">';
                                         }?> 
                                     <?php Pjax::end(); ?>
 
